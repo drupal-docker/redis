@@ -5,7 +5,9 @@ services:
 
 env:
   matrix:
-    # - DOCKERFILE=""
+     - DOCKERFILE="2.8"
+     - DOCKERFILE="3.0"
+     - DOCKERFILE="3.2"
 
 before_script:
   - docker version
